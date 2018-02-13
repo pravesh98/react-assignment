@@ -14,7 +14,7 @@ export const divStyle = {
 };
 
 
-export class LoginBox extends React.Component {
+export class RegisterBox extends React.Component {
     render() {
         return (
             <div>
@@ -23,7 +23,7 @@ export class LoginBox extends React.Component {
                     <div className="row">
                         <div className="col s12 m8 offset-m2 l6 offset-l3">
                             <Col>
-                                <Card className='white lighten-2' textClassName='' title='Login Form'>
+                                <Card className='white lighten-2' textClassName='' title='Register Form'>
                                     <Row>
                                         <form method="post" action="/done">
                                             <Input s={12} label="Username" validate required="true"><Icon>account_circle</Icon></Input>
